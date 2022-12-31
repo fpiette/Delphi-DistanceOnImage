@@ -1,9 +1,9 @@
 {* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-Author:       François PIETTE
+Author:       FranÃ§ois PIETTE
 Creation:     Dec 31, 2022
 Description:  Simple demo showing how to load a JPG in a TImage and resizing
-              the view so that the entire image fits is TImage?
+              the view so that the entire image fits is TImage.
               Show how to compute the distance between two mouse click,
               expressed in the coordinate space of the image.
               The code is kept as simple as possible. There should be more
@@ -11,7 +11,7 @@ Description:  Simple demo showing how to load a JPG in a TImage and resizing
 Version:      1.00
 EMail:        francois.piette@overbyte.be  http://www.overbyte.be
 Support:      No support provided. Try sending me an email.
-Legal issues: Copyright (C) 2022 by François PIETTE
+Legal issues: Copyright (C) 2022 by FranÃ§ois PIETTE
               Rue de Grady 24, 4053 Embourg, Belgium.
               <francois.piette@overbyte.be>
 
@@ -178,7 +178,7 @@ procedure TDistanceOnImageForm.LoadImage1ButtonClick(Sender: TObject);
 begin
     // Load a somewhat large image
     // Adapt the path to your configuration
-    ImgClass.LoadFromFile('..\..\Images\FPI09233_2 Liège - Tour des Finances - Plongeur.jpg');
+    ImgClass.LoadFromFile('..\..\Images\FPI09233_2 LiÃ¨ge - Tour des Finances - Plongeur.jpg');
     Display('ImageSize W=%d  H=%d', [ImgClass.Img.Width, ImgClass.Img.Height]);
 end;
 
